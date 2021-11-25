@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+.container {
+  height: 100vh;
+  font-family: 'Poppins', sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.scoreboard-block {
+  display: none;
+  border-radius: 2vh;
+  position: absolute;
+  height: 75vh;
+  width: 40vh;
+  background-color: rgb(23 23 23 / 80%);
+  right: 3vh;
+  top: 5vh;
+  margin: 1vh;
+}
+
+.scoreboard-header {
+	border-radius: 1vh;
+    position: relative;
+    width: 96%;
+    height: 40px;
+    margin: 5px 0px 0px 5px;
+    background: #dc143c;
+}
+
+.scoreboard-header > p {
+	text-align: center;
+    font-weight: bold;
+    color: #ededed;
+    padding: 1.1vh;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5vh;
+}
+#status-tab-label {
+  position: absolute;
+  font-family: 'Poppins', sans-serif;
+  right: 3vh;
+  font-weight: bold;
+}
+
+.info-beam-title {
+  position: absolute;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.3vh;
+  letter-spacing: 0.1vh;
+  left: 2.7vh;
+  line-height: 4vh;
+  font-weight: bold;
+  color: #ededed;
+}
+.info-beam2-title {
+  position: absolute;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.3vh;
+  letter-spacing: 0.1vh;
+  left: 2.7vh;
+  line-height: 4vh;
+  font-weight: bold;
+  color: #ededed;
+}
+
+.info-beam-title-players {
+  position: absolute;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.3vh;
+  letter-spacing: 0.1vh;
+  left: 2.4vh;
+  line-height: 4vh;
+  font-weight: bold;
+  color: #ededed;
+}
+
+.info-beam-status {
+  position: absolute;
+  font-family: 'Poppins', sans-serif;
+  right: 3vh;
+  float: left;
+  text-align: left;
+  line-height: 4.25vh;
+}
+.info-beam2-status {
+  position: absolute;
+  font-family: 'Poppins', sans-serif;
+  right: 3vh;
+  float: left;
+  text-align: left;
+  line-height: 4.25vh;
+}
+
+.scoreboard-info-beam {
+  margin-top: .3vh;
+  position: relative;
+  height: 4vh;
+  width: 100%;
+  border-bottom-left-radius: 3vh;
+  border-bottom-right-radius: 3vh;
+}
+.scoreboard-info-beam2 {
+  margin-top: .3vh;
+  position: relative;
+  height: 4vh;
+  width: 100%;
+  border-bottom-left-radius: 3vh;
+  border-bottom-right-radius: 3vh;
+}
+
+.fa-times {
+  color: #dc143c;
+}
+
+.fa-check {
+  color: #28a745;
+}
+
+.fa-clock {
+  color: #2873a7;
+}
+.fa-stopwatch {
+  color: #2873a7;
+}
+.fa-check-circle {
+  color: #28a745;
+}
+
+.fa-ban { 
+  color: #dc143c;
+}
